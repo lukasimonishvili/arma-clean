@@ -2,61 +2,79 @@
   "HeaderTitle": {
     "en": "Why Regular Upholstery Cleaning Is a Must for Every Home?",
     "es": "¿Por qué la limpieza regular de tapicería es imprescindible en cada hogar?",
-    "ru": "Почему регулярная чистка мягкой мебели необходима в каждом доме?"
+    "ru": "Почему регулярная чистка мягкой мебели необходима в каждом доме?",
+    "ca": "Per què és imprescindible la neteja regular de la tapisseria a cada llar?"
   },
   "HeaderDescription": {
     "en": "regular cleaning extends the life of your soft furniture, removes allergens, and restores its original beauty. Discover the benefits of professional upholstery care.",
     "es": "La limpieza regular alarga la vida de tus muebles tapizados, elimina alérgenos y devuelve su belleza original. Descubre los beneficios del cuidado profesional de la tapicería.",
-    "ru": "Регулярная чистка продлевает срок службы мягкой мебели, удаляет аллергены и восстанавливает её первоначальную красоту. Откройте для себя преимущества профессионального ухода за обивкой."
+    "ru": "Регулярная чистка продлевает срок службы мягкой мебели, удаляет аллергены и восстанавливает её первоначальную красоту. Откройте для себя преимущества профессионального ухода за обивкой.",
+    "ca": "La neteja regular allarga la vida dels teus mobles entapissats, elimina al·lèrgens i en restaura la bellesa original. Descobreix els avantatges del manteniment professional de la tapisseria."
   },
   "BookCleaningButton": {
     "en": "Book a cleaning",
     "es": "Reservar una limpieza",
-    "ru": "Заказать уборку"
+    "ru": "Заказать уборку",
+    "ca": "Reserva una neteja"
   },
   "ServicesTitle": {
     "en": "Services",
     "es": "Servicios",
-    "ru": "Услуги"
+    "ru": "Услуги",
+    "ca": "Serveis"
   },
   "SofaCleaning": {
     "en": "Sofa Cleaning",
     "es": "Limpieza de sofás",
-    "ru": "Чистка диванов"
+    "ru": "Чистка диванов",
+    "ca": "Neteja de sofàs"
   },
   "MattressSanitizations": {
     "en": "Mattress sanitization",
     "es": "Desinfección de colchones",
-    "ru": "Санитарная обработка матрасов"
+    "ru": "Санитарная обработка матрасов",
+    "ca": "Desinfecció de matalassos"
   },
   "StainRemoving": {
     "en": "Stain removing",
     "es": "Eliminación de manchas",
-    "ru": "Удаление пятен"
+    "ru": "Удаление пятен",
+    "ca": "Eliminació de taques"
   },
   "CarpetWashing": {
     "en": "Carpet washing",
     "es": "Lavado de alfombras",
-    "ru": "Стирка ковров"
+    "ru": "Стирка ковров",
+    "ca": "Rentat de catifes"
   },
   "ProfiesTitle": {
     "en": "Trusted Professionals. Modern Methods. Safe Results.",
     "es": "Profesionales de confianza. Métodos modernos. Resultados seguros.",
-    "ru": "Надёжные специалисты. Современные методы. Безопасный результат."
+    "ru": "Надёжные специалисты. Современные методы. Безопасный результат.",
+    "ca": "Professionals de confiança. Mètodes moderns. Resultats segurs."
   },
   "ProfiesDescription": {
     "en": "Our experienced team uses the latest cleaning technologies and non-toxic, eco-friendly solutions to care for your furniture. We treat every fabric with precision—delivering deep cleans without compromising safety or comfort.",
     "es": "Nuestro equipo experimentado utiliza las últimas tecnologías de limpieza y soluciones no tóxicas y ecológicas para cuidar sus muebles. Tratamos cada tela con precisión, ofreciendo limpiezas profundas sin comprometer la seguridad ni la comodidad.",
-    "ru": "Наша опытная команда использует новейшие технологии уборки и нетоксичные, экологически чистые средства для ухода за вашей мебелью. Мы тщательно обрабатываем каждую ткань, обеспечивая глубокую очистку без ущерба для безопасности и комфорта."
+    "ru": "Наша опытная команда использует новейшие технологии уборки и нетоксичные, экологически чистые средства для ухода за вашей мебелью. Мы тщательно обрабатываем каждую ткань, обеспечивая глубокую очистку без ущерба для безопасности и комфорта.",
+    "ca": "El nostre equip amb experiència utilitza les tecnologies de neteja més recents i solucions no tòxiques i ecològiques per cuidar els teus mobles. Tractem cada teixit amb precisió, oferint una neteja profunda sense comprometre la seguretat ni la comoditat."
   },
   "LocationsTitle": {
     "en": "Serving All of Barcelona and Beyond",
     "es": "Sirviendo a toda Barcelona y más allá",
-    "ru": "Обслуживаем всю Барселону и окрестности"
+    "ru": "Обслуживаем всю Барселону и окрестности",
+    "ca": "Donem servei a tot Barcelona i més enllà"
   },
   "LocationsDescription": {
     "en": "Wherever you are in Barcelona or the surrounding areas, our team is ready to bring professional furniture cleaning to your doorstep. Fast response, flexible scheduling, and local expertise you can rely on.",
     "es": "Dondequiera que estés en Barcelona o en las áreas circundantes, nuestro equipo está listo para llevar la limpieza profesional de muebles hasta tu puerta. Respuesta rápida, horarios flexibles y experiencia local en la que puedes confiar.",
-    "ru": "Где бы вы ни находились в Барселоне или в ближайших районах, наша команда готова предоставить профессиональную чистку мебели прямо у вашей двери. Быстрый отклик, гибкий график и местный опыт, на который можно положиться."
+    "ru": "Где бы вы ни находились в Барселоне или в ближайших районах, наша команда готова предоставить профессиональную чистку мебели прямо у вашей двери. Быстрый отклик, гибкий график и местный опыт, на который можно положиться.",
+    "ca": "Siguis on siguis a Barcelona o als voltants, el nostre equip està preparat per portar la neteja professional de mobles fins a la teva porta. Resposta ràpida, horaris flexibles i experiència local en la qual pots confiar."
+  },
+  "FooterHeader": {
+    "en": "Cleaning of soft furniture and carpets",
+    "es": "Limpieza de muebles tapizados y alfombras",
+    "ru": "Чистка мягкой мебели и ковров",
+    "ca": "Neteja de mobles entapissats i catifes"
   }
 }

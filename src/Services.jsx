@@ -22,6 +22,11 @@ const StyledContainer = Styled.div`
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 26px;
   }
+
+    @media screen and (max-width: 1730px) {
+      width: 100%;
+      padding: 0 30px;
+    }
 `;
 
 const StyledServiceList = Styled.div`
@@ -29,6 +34,15 @@ const StyledServiceList = Styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 1730px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 868px) {
+      flex-direction: column;
+    }
 `;
 
 const StyledServiceListItem = Styled.div`
@@ -56,6 +70,41 @@ const StyledServiceListItem = Styled.div`
         color: rgba(0, 0, 0, 0.8);
         text-align: center;
         border-radius: 12px;
+    }
+
+    @media screen and (max-width: 1730px) {
+      margin-left: 50px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 1633px) {
+
+      &:last-child {
+        margin-top: 40px;
+      }
+    }
+
+     @media screen and (max-width: 1227px) {
+
+      &:nth-child(3) {
+        margin-top: 40px;
+      }
+    }
+
+    @media screen and (max-width: 868px) {
+      margin-left: 0 !important;
+      margin-top: 40px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    @media screen and (max-width: 460px) {
+      width: 100%;
     }
 `;
 

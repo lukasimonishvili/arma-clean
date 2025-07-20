@@ -14,6 +14,15 @@ const StyledContainer = Styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+     @media screen and (max-width: 1730px) {
+      width: 100%;
+      padding: 0 30px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
 `;
 
 const StyledCover = Styled.div`
@@ -24,6 +33,15 @@ const StyledCover = Styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+
+    @media screen and (max-width: 1200px) {
+      margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 860px) {
+      width: 100%;
+      height: 400px;
+    }
 `;
 
 const StyledTexts = Styled.div`
@@ -43,6 +61,21 @@ const StyledTexts = Styled.div`
         line-height: 180%;
         letter-spacing: 0.02em;
         color: #696984;
+    }
+
+    @media screen and (max-width: 1200px) {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 860px) {
+      & > h2 {
+        font-size: 32px;
+        line-height: 44px;
+      }
+
+      & p {
+        font-size: 16px;
+      }
     }
 `;
 

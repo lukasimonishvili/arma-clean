@@ -40,6 +40,11 @@ const StyledLanguages = Styled.div`
             left: -30px;
             top: 55px;
         }
+
+        &:nth-child(5) {
+            left: 0px;
+            top: 85px;
+        }
     }
 
     & > div {
@@ -53,6 +58,38 @@ const StyledLanguages = Styled.div`
         cursor: default;
         display: ${(props) => (props.displaylangs ? "block" : "none")};
     }
+
+    @media screen and (max-width: 860px) {
+        width: 50px;
+        right: 0;
+        bottom: 20px;
+
+        & > button {
+            font-size: 8px;
+            padding: 8px;
+
+            &:nth-child(2) {
+                left: 12px;
+                top: -25px;
+            }
+
+            &:nth-child(3) {
+                left: -20px;
+                top: -15px;
+                padding: 8px 10px;
+            }
+
+            &:nth-child(4) {
+                left: -22px;
+                top: 18px;
+                padding: 8px 9px;
+            }
+
+            &:nth-child(5) {
+                top: 42px;
+            }
+        }
+    }
 `;
 
 const Languages = (props) => {
@@ -63,6 +100,7 @@ const Languages = (props) => {
   return (
     <StyledLanguages onClick={toggleShowLang} displaylangs={showLang}>
       <img alt="Pick language" src={translateImage} />
+      <button onClick={() => props.changeLanguage("ca")}>Ca</button>
       <button onClick={() => props.changeLanguage("es")}>Es</button>
       <button onClick={() => props.changeLanguage("en")}>En</button>
       <button onClick={() => props.changeLanguage("ru")}>Ru</button>

@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Footer from "./Footer";
 import Languages from "./Languages";
 import Locations from "./Locations";
 import Profies from "./Profies";
@@ -6,8 +7,8 @@ import Services from "./Services";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [lang, setLang] = useState("es");
-  const whiteList = ["en", "es", "ru"];
+  const [lang, setLang] = useState("ca");
+  const whiteList = ["en", "es", "ru", "ca"];
 
   useEffect(() => {
     let sotrageLang = window.localStorage.getItem("lang");
@@ -16,7 +17,6 @@ function App() {
   }, []);
 
   const changeLanguage = (language) => {
-    console.log("hiiiiiii");
     if (!language || !whiteList.includes(language)) return;
     setLang(language);
     window.localStorage.setItem("lang", language);
@@ -29,6 +29,7 @@ function App() {
       <Profies lang={lang} />
       <Locations lang={lang} />
       <Languages changeLanguage={changeLanguage} />
+      <Footer lang={lang} />
     </>
   );
 }
