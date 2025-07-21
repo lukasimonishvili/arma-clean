@@ -107,7 +107,7 @@ const StyledTexts = Styled.div`
 
 const Locations = (props) => {
   const callPhone = () => {
-    window.location.href = "tel:+34614672972";
+    window.open("https://wa.me/34614672972", "_blank");
   };
 
   return (

@@ -85,7 +85,9 @@ const Footer = () => {
         <a href="mailto:armacleanservice@gmail.com">
           armacleanservice@gmail.com
         </a>
-        <a href="tel:+34614672972">+34614672972</a>
+        <a href="https://wa.me/34614672972" target="_blank">
+          +34614672972
+        </a>
       </StyledContainer>
     </StyledFooter>
   );
