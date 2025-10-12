@@ -80,11 +80,9 @@ const Footer = () => {
         <StyledLogoWrapper>
           <img src={WhiteLogoImage} alt="" />
           <div />
-          <span>Arma-Clean</span>
+          <span>Cleaning Home</span>
         </StyledLogoWrapper>
-        <a href="mailto:armacleanservice@gmail.com">
-          armacleanservice@gmail.com
-        </a>
+        <a href="mailto:cleaninghome@gmail.com">cleaninghome@gmail.com</a>
         <a href="https://wa.me/34614672972" target="_blank">
           +34614672972
         </a>
