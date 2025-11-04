@@ -107,7 +107,7 @@ const StyledTexts = Styled.div`
 
 const Locations = (props) => {
   const callPhone = () => {
-    window.open("https://wa.me/34614672972", "_blank");
+    window.open("https://wa.me/34631503507", "_blank");
   };
 
   return (
@@ -119,7 +119,7 @@ const Locations = (props) => {
           <button onClick={callPhone}>
             {langData.BookCleaningButton[props.lang]}
           </button>
-          <button onClick={callPhone}>+34614672972</button>
+          <button onClick={callPhone}>+34631503507</button>
         </StyledTexts>
         <StyledCover />
       </StyledContainer>

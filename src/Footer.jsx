@@ -83,8 +83,8 @@ const Footer = () => {
           <span>Cleaning Home</span>
         </StyledLogoWrapper>
         <a href="mailto:cleaninghome@gmail.com">cleaninghome@gmail.com</a>
-        <a href="https://wa.me/34614672972" target="_blank">
-          +34614672972
+        <a href="https://wa.me/34631503507" target="_blank">
+          +34631503507
         </a>
       </StyledContainer>
     </StyledFooter>
